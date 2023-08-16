@@ -1,0 +1,44 @@
+.container {
+  /* border: 1px solid; */
+  border-radius: 5px;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  margin: 10px 15px;
+  padding: 1px 10px;
+  display: flex;
+}
+
+.movie-image {
+  display: inline-block;
+  width: 100px;
+}
+
+.movie-info-container {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.movie-info {
+  display: inline;
+  margin: 0 8px;
+}
+
+.movie-info-text {
+  display: inline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.description-title {
+  margin-left: 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.description {
+  margin-left: 20px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  max-width: 1500px;
+}

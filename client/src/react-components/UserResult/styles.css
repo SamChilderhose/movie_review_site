@@ -1,0 +1,36 @@
+.user-result-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.user-info-container {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.user-info {
+  /* display: inline; */
+  margin: 0 8px;
+}
+
+.user-info-text {
+  display: inline-block;
+}
+
+.user-info-review {
+  /* display: inline-block; */
+  margin-left: 30px;
+}
+
+.user-review-text {
+  margin-left: 20px;
+}
+
+.small-font {
+  font-size: small;
+}
+
+.italic {
+  font-style: italic;
+}

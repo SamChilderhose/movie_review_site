@@ -1,0 +1,80 @@
+.review-wrapper {
+  border-radius: 5px;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  margin: 10px 15px;
+  padding: 1px 10px;
+}
+
+.review-container {
+  /* border: 1px solid; */
+  /* border-radius: 5px;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  margin: 10px 15px;
+  padding: 1px 10px; */
+  display: flex;
+}
+
+.image-container {
+  display: inline-block;
+  margin: 5px;
+  text-align: center;
+}
+
+.profile-image {
+  width: 100px;
+  height: 110px;
+  border-radius: 50%;
+}
+
+.review {
+  display: inline-block;
+}
+
+.review-title {
+  font-size: large;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.like-button {
+  float: right;
+  border: none;
+}
+
+.delete-button {
+  float: right;
+}
+
+.created-by {
+  font-size: small;
+}
+
+.review-text {
+  margin: 5px;
+  margin-left: 15px;
+}
+
+.review-buttons-container {
+  display: grid;
+  float: right;
+  grid-row-gap: 60px;
+  /* width: 90px; */
+}
+
+.number-of-likes {
+  float: right;
+  /* margin: 0 20px; */
+  color: gray;
+  padding: 10px 0;
+}
+
+.like-button.MuiToggleButton-root {
+  border: none;
+  background: none;
+  padding: 10px;
+}
+
+.like-button.MuiToggleButton-root.Mui-selected {
+  color: crimson;
+  background: none;
+}

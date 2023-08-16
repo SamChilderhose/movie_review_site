@@ -1,0 +1,39 @@
+/* .main {
+    position: absolute;
+    background-color: cadetblue;
+    padding: 150px;
+    z-index: 1;
+    left: 50%;
+    top: 150px;
+} */
+
+.sign-in-input {
+  width: 300px;
+  height: 50px;
+}
+
+.sign-in-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.sign-in-modal-title {
+  background-color: sandybrown;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-in-input .MuiOutlinedInput-input input {
+  height: 40px;
+}
+
+.user-not-found-text {
+  color: red;
+  font-size: small;
+}

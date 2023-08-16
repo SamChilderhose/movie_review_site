@@ -1,0 +1,33 @@
+.message-container {
+  display: flex;
+  border-bottom: 1px solid gray;
+  padding: 4px;
+  margin: 5px;
+}
+
+.from-user-image {
+  width: 90px;
+  border-radius: 50%;
+}
+
+.from-name {
+  font-weight: bold;
+  display: inline-block;
+  font-size: large;
+}
+
+.message-details {
+  width: 100%;
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.message {
+  margin: 0 20px;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.last-sent {
+  float: right;
+}

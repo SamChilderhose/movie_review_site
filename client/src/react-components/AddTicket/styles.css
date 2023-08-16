@@ -1,0 +1,23 @@
+.centerDiv{
+  display: block;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.centerForm{
+  margin-top: 40px;
+  display: inline-block;
+}
+
+
+.generalHolder:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .divider{
+    width:35px;
+    height:auto;
+    display:inline-block;
+  }

@@ -1,0 +1,89 @@
+.messages-container {
+  margin: 10px;
+  margin-top: 50px;
+}
+
+.messages-paper {
+  height: 800px;
+  padding: 5px;
+}
+
+.hundred-height {
+  height: 100vh;
+}
+
+.one-message:hover {
+  cursor: pointer;
+}
+
+.from-user-container {
+  display: flex;
+  align-items: center;
+}
+
+.messageOnDisplay-from-user-name {
+  display: inline-block;
+  font-weight: bold;
+  font-size: larger;
+  margin: 0 10px;
+}
+
+.all-messages {
+  border: 1px solid;
+  height: 75%;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 3px;
+  overflow: hidden;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.write-message-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.write-message-input {
+  /* float: right; */
+  border-radius: 10px;
+  width: 500px;
+  padding: 2px;
+  margin: 0 10px;
+  font-size: large;
+}
+
+.from-user-image {
+  width: 80px;
+  height: 80px;
+}
+
+.new-message-button {
+  /* background-color: orange !important; */
+  color: white !important;
+  float: right;
+}
+
+.new-message-modal {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+
+.new-message-card {
+  width: 500px;
+}
+
+.create-new-message-button {
+  margin: 20px auto !important;
+}
+
+.scroll {
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.send-message-button {
+  /* background-color: orange !important; */
+}

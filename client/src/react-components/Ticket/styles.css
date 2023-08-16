@@ -1,0 +1,60 @@
+
+.ticketsContainer {
+	background-color: white;
+    padding: 20px;
+    margin: 20px;
+    height: 35%;
+}
+
+.ticketPanel {
+	border-style: groove;
+	border: cadetblue;
+	align-items: center;
+}
+
+
+.generalButton {
+	background-color: rgb(7, 184, 243);
+	border: none;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin-top: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 5px rgb(34, 164, 207);
+}
+
+.generalButton:active {
+  	box-shadow: none;
+  	transform: translateY(2px);
+}
+
+.generalButton:hover {
+  	background-color: rgb(7, 94, 122);
+	cursor: pointer;
+}
+
+.approvalButton {
+	background-color:greenyellow;
+	border: none;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin-top: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 5px rgb(127, 184, 42);
+}
+
+.approvalButton:active {
+  	box-shadow: none;
+  	transform: translateY(2px);
+}
+
+.approvalButton:hover {
+  	background-color:green;
+	cursor: pointer;
+}

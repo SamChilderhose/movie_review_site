@@ -1,0 +1,135 @@
+.float-right {
+  float: right;
+}
+
+.inline-block {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.add-review-button,
+.review-submitted-button {
+  float: right;
+  top: 20px;
+  color: white !important;
+  margin-right: 10px !important;
+  font-size: large !important;
+  font-weight: bold !important;
+  /* padding: 15px !important; */
+}
+
+.add-review-button {
+  /* background-color: orange !important; */
+}
+.review-submitted-button {
+  background-color: lightgray !important;
+}
+
+.movie-poster {
+  width: 300px;
+  display: inline-block;
+}
+
+.movie-information-container {
+  margin: 10px;
+  display: flex;
+}
+
+.movie-information {
+  margin: 5px;
+  /* width: 400px; */
+  display: inline-block;
+}
+
+.movie-description {
+  max-width: 700px;
+}
+
+.reviews-container {
+  /* border: 1px solid; */
+  margin: 5px;
+  padding: 5px;
+}
+
+.add-review-modal {
+  display: flex;
+  justify-content: center;
+  height: 650px;
+  margin-top: 10%;
+}
+
+.add-review-content {
+  width: 800px;
+}
+
+.add-review-modal-title {
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}
+
+.add-review-paper {
+  height: 550px;
+  /* width: 900px; */
+}
+
+.add-review-input-container,
+.add-review-actions-container {
+  display: flex;
+  justify-content: center;
+}
+
+.add-review-title-input-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+.add-review-title-input {
+  width: 600px;
+}
+
+.add-review-input {
+  /* height: 500px; */
+  width: 600px;
+  height: 300px !important;
+  margin: 20px auto;
+  display: flex;
+  resize: none;
+}
+
+.review-helper-text {
+  float: right;
+}
+
+.red {
+  color: red;
+}
+
+.submit-review-button {
+  padding: 10px 70px !important;
+}
+
+.review-submitted-text {
+  font-size: xx-large;
+  font-weight: bold;
+  /* color: green; */
+  text-align: center;
+  margin-top: 15%;
+}
+
+.MuiAlert-standardSuccess {
+  color: #fff;
+  font-weight: 500;
+  background-color: #4caf50;
+}
+
+.MuiAlert-standardSuccess .MuiAlert-icon {
+  color: #fff;
+}
+
+.movie-view-wrapper {
+  margin-top: 45px;
+}

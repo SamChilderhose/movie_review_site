@@ -1,0 +1,31 @@
+.message-chip-container {
+  margin: 2px;
+}
+
+.current-user-message-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.current-user-message-container .chip-message-sent {
+  text-align: right;
+}
+
+.other-user-message-container {
+  width: 100%;
+}
+
+.current-user-message {
+  background-color: cadetblue !important;
+  color: white !important;
+}
+
+.other-user-message {
+  background-color: darkgray !important;
+  color: white !important;
+}
+
+.chip-message-sent {
+  font-size: x-small;
+}
